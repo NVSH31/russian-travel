@@ -14,7 +14,7 @@
     background-position: center;
     background-size: cover;
 }
-    
+
 .cover__overlay::before {
     content: '';
     position: absolute;
@@ -31,5 +31,5 @@
 
 .cover__overlay:hover::before {
     opacity: .8;
-    
+
 }
