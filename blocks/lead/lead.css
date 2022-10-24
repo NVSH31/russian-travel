@@ -1,5 +1,7 @@
-.cover {
-    font-family: 'Inter', Arial, sans-serif;
+.lead {
+    margin: 0 auto 46px;
+    padding: 0;
+    max-width: 985px;
     display: flex;
     flex-direction: column;
     position: relative;
