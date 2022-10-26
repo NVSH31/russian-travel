@@ -1,0 +1,15 @@
+.place {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    width: 984px;
+    grid-gap: 48px 40px;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    
+    /*repeat(auto-fit, minmax(460 1fr))*/
+    /*display: flex;
+    position: absolute;
+    flex-direction: column;*/
+
+}

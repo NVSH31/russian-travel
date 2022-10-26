@@ -1,0 +1,13 @@
+.places {
+    margin: 92px 148px 92px 148px;
+    padding: 0;
+    display: grid;
+    row-gap: 80px;
+    /*display: flex;
+    position: relative;*/
+    /*display: flex;
+    flex-direction: column;
+    box-sizing: border-box;*/
+
+    
+}
