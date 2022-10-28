@@ -4,5 +4,5 @@
     max-width: 985px;
     display: flex;
     flex-direction: column;
-    position: relative;
+    /*position: relative;*/
 }
