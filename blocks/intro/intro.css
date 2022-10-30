@@ -1,5 +1,6 @@
 .intro {
-    margin: 114px 442px 92px 148px;
-    padding: 0;
-
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
+

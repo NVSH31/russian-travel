@@ -1,7 +1,17 @@
 .footer__links {
-    margin: 0;
-    padding: 0;
-    display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 544px) {
+  .footer__links {
+    row-gap: 32px;
+    flex-direction: column;
     flex-wrap: nowrap;
-    list-style: none;
+  }
 }

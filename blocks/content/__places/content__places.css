@@ -1,0 +1,23 @@
+.content__places {
+  box-sizing: border-box;
+  margin: 92px auto 0;
+  padding: 0 148px;
+}
+
+@media screen and (max-width: 1152px) {
+  .content__places {
+    padding: 0 48px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .content__places {
+    margin-top: 88px;
+    padding: 0 24px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .content__places {
+    margin-top: 64px;
+    padding: 0;
+  }
+}

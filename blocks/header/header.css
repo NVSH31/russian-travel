@@ -1,13 +1,12 @@
-.header{
-    margin: 28px 48px 56px 48px;
-    padding: 0;
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    max-width: 1184px;
-    min-height: 52px;
-    
-   
+.header {
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 
-
+@media screen and (max-width: 544px) {
+  .header {
+    height: 42px;
+  }
 }
