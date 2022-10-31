@@ -6,6 +6,9 @@
   column-gap: 40px;
   row-gap: 48px;
 }
+.place:last-of-type {
+  margin-bottom: 92px;
+}
 
 @media screen and (max-width: 1152px) {
   .place {
@@ -21,9 +24,12 @@
 }
 @media screen and (max-width: 896px) {
   .place {
-    margin-bottom: 88px;
+    margin-bottom: 73px;
     grid-template-columns: 340px 352px;
     column-gap: 28px;
+  }
+  .place:last-of-type {
+    margin-bottom: 90px;
   }
 }
 @media screen and (max-width: 730px) {
@@ -40,8 +46,11 @@
 }
 @media screen and (max-width: 544px) {
   .place {
-    margin-bottom: 64px;
+    margin-bottom: 50px;
     grid-template-columns: 100%;
     row-gap: 32px;
+  }
+  .place:last-of-type {
+    margin-bottom: 66px;
   }
 }

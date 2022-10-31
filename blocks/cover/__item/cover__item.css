@@ -1,4 +1,6 @@
 .cover__item {
+  box-sizing: border-box;
+  padding: 20px 48px;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -7,10 +9,8 @@
   min-height: 740px;
   color: #fff;
   text-decoration: none;
-  box-sizing: border-box;
-  padding: 20px;
   background-image: url("../../../images/cover-trains.jpg");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   z-index: 1;
@@ -18,6 +18,7 @@
 
 @media screen and (max-width: 1152px) {
   .cover__item {
+    padding: 0 16px;
     min-height: 640px;
   }
 }
